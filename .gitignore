@@ -1,0 +1,23 @@
+# deps / build
+node_modules/
+.next/
+out/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# env — never commit local API bases or secrets
+.env
+.env.local
+.env*.local
+
+# caches / stores (may contain private transcript or memory content)
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+
+# local tooling artifacts
+.impeccable/
+.claude/
